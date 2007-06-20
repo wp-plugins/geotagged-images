@@ -57,7 +57,7 @@ foreach ($posts as $post) {
 }
 
 
-//header('Content-type: text/text; charset=' . get_option('blog_charset'), true);
+
 header('Content-type: application/vnd.google-earth.kml+xml; charset=' . get_option('blog_charset'), true);
 header('Content-Disposition: attachment; filename="'.get_bloginfo('title') .'.kml"');
 
